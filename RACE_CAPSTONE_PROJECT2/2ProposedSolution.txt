@@ -1,0 +1,12 @@
+The objective of the project is to build various classification models to predict the direction of the closing price for the stock under consideration. The direction of the closing price is to be detected to determine the extent of accuracy of Modelling predictions.
+
+6-day consecutive closing price for the stock under consideration is being taken. These 6 days consecutive closing prices will be tabulated week on week for the entire dataset and will be utilized as 6 different feature variables for building the classification Model.
+
+Computation is being done to evaluate whether it is positive change, negative change or no change between 7th and 8th day closing price. The rule is being set to determine as to what has to be seen as direction change.0.5% change,0.7% change,1% change and 1.5% change -these are different classes of direction for which rule is being set which is to be followed for computing the direction change as either positive change, negative change or no change. 
+
+Therefore, given 6-day data it will be predicted whether on 8th data the closing price of stock under consideration is going to increase or decrease or remain the same. Based on the close price, the direction of the next day closing price is to be predicted as to whether it is going to increase or decrease. A number of target variables can be created based on whether the change is on 0.5%,0.7%,1% or 1.5% and then it is to be determined for each of these target variables what would be the prediction accuracy.
+
+Similarly, all technical indicators can be utilized in Technical Analysis to build another sets of classification Models. All different types of technical indicators namely momentum indicators, trend indicators, volatility indicators, volume indicators can be utilized as feature variables based on the input dataset and different classification models can be built to determine their prediction accuracy. Generally Open price, High price, low price, close price and volume for the stock under consideration will be utilized to derive feature variables from Technical indicators. These derived feature variables will then be used as the feature variables to predict the direction of the close price.
+
+if for example say 10000 is invested in HDFC stock, and say it is predicted as positive change for the next day. The same prediction process is repeated for say 100 times and evaluated how much is the net gain and loss based on that.
+

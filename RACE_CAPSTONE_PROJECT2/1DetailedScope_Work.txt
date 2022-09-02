@@ -1,0 +1,50 @@
+Daily Trading Data of HDFC company from the year 2000 to 2022 is being used for this study. This study uses NSE Data. 
+
+6-day consecutive closing price for the stock under consideration is being taken. These 6 days consecutive closing prices will be tabulated week on week for the entire dataset and will be utilized as 6 different feature variables for building the classification Model.
+
+The data is being prepared week on week to determine how exactly computation is being done for what is up, what is down and what is neutral. Say for example, anything more than 0.5% change can be positive up, anything less than -0.5% change can be positive down, anything between 0.5% and -0.5% change can be taken as Neutral.
+
+
+The difference between 7th and 8th day Closing price is determined. If the 8th day closing price is seen an increase from the 7th day by 0.5% or more, the direction of the closing price can be made as positive.
+
+If the 8th day closing price is seen a decrease from the 7th day by -0.5% or less, the direction of the closing price can be made as negative. Between -0.5% and 0.5% that the direction of the closing price for the stock under consideration can be treated as sideways. 
+
+For data within the 0.5% and -0.5% band, usually the advice to the investor will be to hold on to existing portfolios and wait for the direction of the closing price to show as either negative or positive change. If there is a negative change, usually the advice to the investor will be to not to invest in such a circumstance. If there is a positive change the investor will be suggested to invest.
+
+
+It is to be determined how many times the positive changes are identified by predicting and how many times positive changes are there in the actual data. This will be utilized to evaluate how many times true positives were detected and how many times the false positives were predicted in the prediction. Similar process to be followed for detecting true negatives and false negatives. Similar process to be followed for detecting true neutrals and false neutrals. Based on prediction accuracy, it can be suggested whether to invest or not to invest to the prospective investor.
+
+Computation is being done to evaluate whether it is positive change, negative change or no change between 7th and 8th day closing price. The rule is being set to determine as to what has to be seen as direction change.0.5% change,0.7% change,1% change and 1.5% change -these are different classes of direction for which rule is being set which is to be followed for computing the direction change as either positive change, negative change or no change. 
+
+Therefore, given 6-day data it will be predicted whether on 8th data the closing price of stock under consideration is going to increase or decrease or remain the same. Based on the close price, the direction of the next day closing price is to be predicted as to whether it is going to increase or decrease. A number of target variables can be
+
+
+created based on whether the change is on 0.5%,0.7%,1% or 1.5% and then it is to be determined for each of these target variables what would be the prediction accuracy.
+
+It will be identified regarding the extent of accuracy by which positive, negative or neutral changes can be predicted based on 0.2 of the existing test data. Based on whatever is the prediction, the prediction accuracy is determined.
+
+once it is determined say for example 0.5% change has the best prediction accuracy among all different classes of direction namely 0.5% change,0.7% change,1% change and 1.5% change then the range of consecutive days to be utilized as feature variable is increased to 10 days. Therefore,10-day consecutive closing price for the stock under consideration is being taken. These 10 days consecutive closing prices will be tabulated week on week for the entire dataset and will be utilized as different feature variables for building the classification Model.
+
+The difference between 11th and 12th day Closing price is determined. If the 12th day closing price is seen an increase from the 11th day by 0.5% or more, the direction of the closing price can be made as positive. If the 12th day closing price is seen a decrease from the 11th day by -0.5% or less, the direction of the closing price can be made as negative. Between -0.5% and 0.5%, the direction of the closing price for the stock under consideration can be treated as sideways. The prediction accuracy is determined to confirm that say 0.5% change has the best prediction accuracy among all different classes of direction even when range of consecutive days to be utilized as feature variable is increased to 10 days.
+
+Similar process is again repeated for range of consecutive days to be utilized as feature variable increased to 14 days. The prediction accuracy is determined to confirm that say 0.5% change has the best prediction accuracy among all different classes of direction even when range of consecutive days to be utilized as feature variable is increased to 14 days.
+
+Similarly, all technical indicators can be utilized in Technical Analysis to build another sets of classification Models. All different types of technical indicators namely momentum indicators, trend indicators, volatility indicators, volume indicators can be utilized as feature variables based on the input dataset and different classification models can be built to determine their prediction accuracy. Generally Open price, High price, low price, close price and volume for the stock under consideration will be utilized to derive feature variables from technical indicators. These derived feature variables will then be used as the feature variables to predict the direction of the close price.
+
+four different Classification models based on four different types of technical indicators are being built.
+
+For momentum indicators, Awesome Oscillator Indicator, KAMA Indicator, Percentage Price Oscillator, Percentage Volume Oscillator, ROC Indicator, RSI Indicator, Stochastic Oscillator, TSI Indicator, Ultimate Oscillator, WilliamsR Indicator are being utilized as the feature variables to predict the direction of the closing price and determine the prediction accuracy.
+
+For trend indicators, ADX Indicator, Aroon Indicator, CCI Indicator, Ichimoku Indicator, KST Indicator, MACD, PSAR Indicator, EMA Indicator, WMA Indicator, Vortex Indicator are being utilized as the feature variables to predict the direction of the closing price and determine the prediction accuracy.
+for volatility indicators, Average True Range, Bollinger Bands, Donchian Channel, Keltner Channel, Ulcer Index are being used as feature variables. Lower and upper band of these volatility indicators are also utilized as feature variables and the direction of the closing price is predicted to determine what is the prediction accuracy.
+
+for volume indicators, AccDistIndex Indicator, ChaikinMoneyFlow Indicator, EaseOfMovement Indicator, ForceIndex Indicator, MFI Indicator, OnBalanceVolume Indicator, VolumePriceTrend Indicator, VolumeWeightedAveragePrice, NegativeVolumeIndex Indicator, DailyLogReturn Indicator are used as feature variables and the direction of the closing price is predicted as to whether it is positive change, Negative change or Neutral to determine what is the prediction accuracy.
+
+When the majority of the 15 various models or all of them move in the same direction, a choice on whether to invest or not to invest on the stock under consideration must be made. What works in the Indian stock market must be proven with evidence. 
+
+
+
+The entire process is needed to be tried and tested for a different dataset altogether to ensure that Any stock on the stock market can utilise the same procedure to forecast whether to invest or not to invest, which is helpful.
+
+Daily Trading Data of SBI and Kotak Mahindra company from the year 2000 to 2022 is being used to repeat the entire process which had been implemented for the HDFC dataset.
+
