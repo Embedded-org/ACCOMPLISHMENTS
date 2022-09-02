@@ -1,3 +1,0 @@
-0.5% change 1% change  1.5%
-prepare week on week.
-take 5 day data.whether it is positive change,Negative change or no change.
