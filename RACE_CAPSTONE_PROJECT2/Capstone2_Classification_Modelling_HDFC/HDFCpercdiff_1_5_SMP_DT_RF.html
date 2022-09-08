@@ -15622,7 +15622,7 @@ weighted avg       0.48      0.69      0.57      1590
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="n">param_grid</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;n_estimators&#39;</span><span class="p">:</span><span class="n">n_estimators</span><span class="p">,</span><span class="s1">&#39;criterion&#39;</span><span class="p">:</span><span class="n">criterion</span><span class="p">,</span><span class="s1">&#39;min_samples_split&#39;</span><span class="p">:</span><span class="n">min_samples_split</span><span class="p">,</span><span class="s1">&#39;max_depth&#39;</span><span class="p">:</span><span class="n">max_depth</span><span class="p">}</span>
 <span class="n">rf</span><span class="o">=</span><span class="n">RandomForestClassifier</span><span class="p">()</span>
-<span class="n">rf_g</span><span class="o">=</span><span class="n">RandomizedSearchCV</span><span class="p">(</span><span class="n">rf</span><span class="p">,</span><span class="n">param_grid</span><span class="p">,</span><span class="n">cv</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span><span class="n">verbose</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span><span class="n">n_jobs</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">rf_g</span><span class="o">=</span><span class="n">RandomizedSearchCV</span><span class="p">(</span><span class="n">rf</span><span class="p">,</span><span class="n">param_grid</span><span class="p">,</span><span class="n">cv</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span><span class="n">verbose</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span><span class="n">n_jobs</span><span class="o">=-</span><span class="mi">1</span><span class="p">)</span>
 <span class="n">rf_g</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">)</span>
 </pre></div>
 
@@ -15883,7 +15883,7 @@ weighted avg       0.78      0.70      0.59      1590
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="err">!</span><span class="n">jupyter</span> <span class="n">nbconvert</span> <span class="n">HDFCpercdiff_1_5_SMP_DT_RF</span><span class="o">.</span><span class="n">ipynb</span>
@@ -15904,7 +15904,7 @@ weighted avg       0.78      0.70      0.59      1590
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>[NbConvertApp] Converting notebook HDFCpercdiff_1_5_SMP_DT_RF.ipynb to html
-[NbConvertApp] Writing 435139 bytes to HDFCpercdiff_1_5_SMP_DT_RF.html
+[NbConvertApp] Writing 435146 bytes to HDFCpercdiff_1_5_SMP_DT_RF.html
 </pre>
 </div>
 </div>
