@@ -1,2 +1,2 @@
+https://www.youtube.com/channel/UC_yZqlFGOoY68ZNgrM5V8pA
 
-https://img.shields.io/youtube/channel/views/UC_yZqlFGOoY68ZNgrM5V8pA?style=social
